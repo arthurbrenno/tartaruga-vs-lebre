@@ -18,7 +18,8 @@ public class Race {
             n = random.nextInt(10) + 1;
             moveCompetitors(n);
             showTracks();
-            
+            System.out.printf("%40s%s%d]%n", "[", Moves.getTypeMovement(turtle.symbol, n) > 0 ? "+" : "", Moves.getTypeMovement(turtle.symbol, n));
+            System.out.printf("%40s%s%d]", "[", Moves.getTypeMovement(hare.symbol, n) > 0 ? "+" : "", Moves.getTypeMovement(hare.symbol, n));
             showStatus();
             Thread.sleep(450);
         } while (!hasWon(hare) && !hasWon(turtle));
