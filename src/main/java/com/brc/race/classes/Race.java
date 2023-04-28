@@ -40,12 +40,12 @@ public class Race {
         else if (turtle.currentPos > hare.currentPos) {
             //String[] t = {"A PEQUENA ESTÁ NA FRENTE!!!", "VAI TARTARUGA VAI!!!", "A TARTARUGA ESTÁ NA VANTAGEM!!!", "A LEBRE COMEU POEIRA!"};
             //System.out.println(t[random.nextInt(t.length - 1)]);
-            System.out.println("\n\n#GOTurtle!");
+            System.out.println("\n\nVAI TARTARUGA!!!");
         }
         else {
             //String[] h = {"A LEBRE ESTÁ NA FRENTE!", "A COITADA ESTÁ FICANDO PARA TRÁS!!!", "VAI LEBRE VAI VAI VAI!!!!!!!!!", "NÃO DESISTA PEQUENA!"};
             //System.out.println(h[random.nextInt(h.length - 1)]);
-            System.out.println("\n\n#GOLebre!");
+            System.out.println("\n\nVAI LEBREE!!");
         }
     }
     private void showCountdownInTerminal() throws InterruptedException{
